@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<h1>Lets Encrypt Setup</h1>
+<h2>Install Certbot</h2>
+Ubuntu: https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache
+
+<pre>
+$ sudo apt-get update
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository ppa:certbot/certbot
+$ sudo apt-get update
+$ sudo apt-get install python-certbot-apache 
+</pre>
+
+<h2>Renewal script</h2>
+
+<h2>Renewal CRON</h2>
+<pre>
+# renew letsencrypt certs
+0 6,18 * * * python -c 'import random; import time; time.sleep(random.random() * 3600)' && /PATH/TO/letsencrypt_renew.sh
+</pre>
+
+</body>
+</html>
