@@ -19,5 +19,7 @@ $ sudo apt-get install python-certbot-apache
 
 ```
 # renew letsencrypt certs
-0 6,18 * * * python -c 'import random; import time; time.sleep(random.random() * 3600)' && /PATH/TO/letsencrypt_renew.sh
+0 6,18 * * * python -c 'import random; import time; time.sleep(random.random() * 3600)' && certbot renew
 ```
+
+Use root's crontab
