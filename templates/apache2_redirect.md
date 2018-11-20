@@ -5,7 +5,9 @@ Good starting point rewrite with:
 * permanent redirect flag
 * optional trailing slash
 
-```RewriteRule ^privacy\-policy/?$ /privacy-statement/$1 [NC,L,R=301]```
+```
+RewriteRule ^privacy\-policy/?$ /privacy-statement/$1 [NC,L,R=301]
+```
 
 # Redirect based on Query String Parameters
 
