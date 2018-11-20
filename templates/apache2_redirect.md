@@ -11,5 +11,5 @@ Good starting point rewrite with:
 
 ```
 RewriteCond %{QUERY_STRING}  ^product=10$
-RewriteRule (.*)  http://website.com/products/product-10-slug?  [R=301,L]
+RewriteRule (.*)  http://website.com/products/product-10-slug?  [NC,L,R=301]
 ```
