@@ -1,5 +1,5 @@
-#Lets Encrypt Setup
-##Install Certbot
+# Lets Encrypt Setup
+## Install Certbot
 [Ubuntu Instructions](https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache)
 
 ```
@@ -10,12 +10,12 @@ $ sudo apt-get update
 $ sudo apt-get install python-certbot-apache 
 ```
 
-##Run certbot
+## Run certbot
 
 ```sudo certbot --apache```
 
-##Renewal script
-###Renewal CRON
+## Renewal script
+### Renewal CRON
 
 ```
 # renew letsencrypt certs
