@@ -6,10 +6,16 @@ Bare minimum requirements:
 Instructions
 
 Get source code:
-```wget https://www.mercurial-scm.org/release/mercurial-4.2.3.tar.gz```
+```
+wget https://www.mercurial-scm.org/release/mercurial-4.2.3.tar.gz
+```
 
 Unpack source:
-```tar -xzf mercurial-4.2.3.tar.gz```
+```
+tar -xzf mercurial-4.2.3.tar.gz
+```
 
 Run local install:
-```make install-home```
+```
+make install-home
+```
