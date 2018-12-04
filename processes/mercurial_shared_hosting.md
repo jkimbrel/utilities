@@ -2,6 +2,7 @@ Bare minimum requirements:
 
 - SSH access
 - Python 2.6
+ - Check version with ```python --version```
 
 Instructions
 
