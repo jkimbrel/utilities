@@ -5,7 +5,7 @@ Create CloudFront distribution.
 
 Update wp-config.php:
 ```
-define('WP_CONTENT_URL', 'https://{dist}.cloudfront.net/');
+define('WP_CONTENT_URL', 'https://{dist}.cloudfront.net/wp-content');
 ```
 
 Update .htaccess:
