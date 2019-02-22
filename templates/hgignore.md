@@ -1,4 +1,4 @@
 Ignore file by extension:
 ```
-/.*\.orig$
+.*\.orig$
 ```
